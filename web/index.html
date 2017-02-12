@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>login</title>
+
+    <link href="bootstrap-3.3.6-dist/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
+
+   
+  </head>
+  <body>
+    
+    <script src="bootstrap-3.3.6-dist/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+
+     <div class="jumbotron" align="center">
+         <h1>Cetpa Certifications</h1>
+     <h2>Online Evaluation system</h2> 
+     
+  </div>
+    
+<div class="row">
+    
+    <form action="login validate.jsp" method="post">
+        <div  align="center" class="col-md-4">
+            
+            <select name="mode">
+                <option value="user">AS A USER</option>
+                <option value="admin">AS A ADMIN</option>
+            </select>
+        <hr>
+        <h3>USERNAME:<input type="text" name="un"/></h3>
+        <h3>PASSWORD:<input type="password" name="pw"/></h3>
+        <a href="forget.html">FORGOT PASSWORD</a>
+        <hr>
+        <div  align="center" class="col-md-6"> <input type="submit" value="login"/></div>
+        <div  align="center" class="col-md-6"><a href="signup.html"><input type="button" value="signup"/></a></div>
+        <hr><hr>
+         </div>
+    </form>
+
+    <div align="center" class="col-md-8">
+        <img src="img/cover.jpg" alt="cover" height="400" width="700"/>
+    </div>
+</div>
+  </body>
+</html>
